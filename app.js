@@ -2,8 +2,7 @@ const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const jwt = require('express-jwt');
 
-//importar o ./graphql/index
-const { schema } = require('./');
+const { schema } = require('./graphql/index');
 const { 
   jwtSecret,
   jwtRequired,
