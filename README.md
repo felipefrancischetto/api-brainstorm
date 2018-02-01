@@ -1,1 +1,1 @@
-# Test code using the GraphQL.
+# Scaffolding code using the GraphQL.
